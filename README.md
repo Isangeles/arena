@@ -5,7 +5,7 @@ engine with [Mural](https://github.com/Isangeles/mural) 2D GUI support.
 You can download full game with arena module here: [Linux](https://drive.google.com/open?id=1CAUiHdGq8sxrrNWkRwF1QSaNSVWLKDVg), [Windows](https://drive.google.com/open?id=1rR_k_39o-hqTywUZO628ggA3iN7ZBZTJ)
 
 ## Usage
-To use this module with your Flame instance just placed it in 
+To use this module with your Flame instance just place it in 
 `data/modules/arena` directory.
 
 Then set `module` variable in `.flame` to:
