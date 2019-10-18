@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <scenario id="area1">
-  <mainarea id="area1_main" map="area01.tmx">
+  <mainarea id="area1_main">
     <npcs>
       <char id="testchar" position="500x300"></char>
     </npcs>
