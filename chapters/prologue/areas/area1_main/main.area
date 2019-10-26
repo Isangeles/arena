@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<area id="area1_main">
+	<npcs>
+		<char id="testchar" position="500x300"></char>	
+	</npcs>
+	<objects>
+		<object id="aloe1" position="500x500"></object>
+	</objects>
+	<subareas>
+		<area id="area1_tent1">
+			<npcs></npcs>
+			<objects></objects>
+		</area>
+	</subareas>
+</area>
