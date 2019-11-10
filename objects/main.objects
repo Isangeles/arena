@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<base>
+<objects>
   <object id="aloe1" max-hp="1">
     <inventory cap="5">
       <item id="imAloeLeaves1"/>
@@ -7,4 +7,4 @@
             random="10.0"/>
     </inventory>
   </object>
-</base>
+</objects>
