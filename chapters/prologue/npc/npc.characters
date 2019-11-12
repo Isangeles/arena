@@ -7,7 +7,11 @@
 	alignment="chaotic_good"
 	guild=""
 	level="1">
-    <stats>4;4;3;1;0;</stats>
+    <attributes strenght="4"
+                constitution="4"
+                dexterity="3"
+                intelligence="1"
+                wisdom="0"/>
     <dialogs>
       <dialog id="dAloeSearch1"/>
     </dialogs>
@@ -36,7 +40,11 @@
 	alignment="chaotic_evil"
 	guild=""
 	level="1">
-    <stats>2;3;3;1;0;</stats>
+    <attributes strenght="2"
+                constitution="3"
+                dexterity="3"
+                intelligence="1"
+                wisdom="0"/>
     <skills>
       <skill id="melee1"/>
     </skills>
