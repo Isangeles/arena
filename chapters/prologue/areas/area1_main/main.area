@@ -5,9 +5,10 @@
 	</npcs>
 	<objects>
 		<object id="aloe1" position="500x500"></object>
+		<object id="ruinTowerDoor1" position="870x910"></object>
 	</objects>
 	<subareas>
-		<area id="area1_tent1">
+		<area id="area1_ruinTower1">
 			<npcs></npcs>
 			<objects></objects>
 		</area>

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
- <tileset firstgid="1" name="forestground06dv5" tilewidth="32" tileheight="32" tilecount="399" columns="19">
-  <image source="tilesets/forestground06dv5.png" width="629" height="679"/>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="groundtiles1" tilewidth="32" tileheight="32" tilecount="399" columns="19">
+  <image source="tilesets/groundtiles1.png" width="608" height="672"/>
  </tileset>
- <layer name="ground" width="50" height="50">
+ <tileset firstgid="400" name="towerruin1" tilewidth="32" tileheight="32" tilecount="49" columns="7">
+  <image source="tilesets/towerruin1.png" width="224" height="224"/>
+ </tileset>
+ <layer id="1" name="ground" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJztwwEJAAAMBKGL9v1TLcdAwVVTVVVVVVVVVVXV5w/cunEf
+   eJzt1DEKwCAQRNE9mXj/U6VPEzGGHcIrXrfI/MZZVRMAAADgYyNgQ0LHOPBGSkd3w6mOhJYTG3To0PHvjqT/andHSsObPWkN911P21bvuo0F3RsBAIBcF0a3cMU=
+  </data>
+ </layer>
+ <layer id="2" name="buildings" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz8cKAlEUBNE3/78ygBnTYMQ45vxp1s69CHKhDtS+OyVJkiRJ+ihlKZWpQtXs32u+U2N3nRrUpBa1qRPwT5fNPerTgIaUB/wxYvOYJjSlGc0D/liweUkrWtOGtsF+FOzd0Z4OdKQTnYP9uLD3Sje604Oe9Ar2Q5IkSZIkSZL0W2+EWhyq
   </data>
  </layer>
 </map>

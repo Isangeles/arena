@@ -1,3 +1,15 @@
 <?xml version="1.0"?>
 <objects>
+	<object id="ruinTowerDoor1">
+		<action>
+			<self>
+				<modifiers></modifiers>
+			</self>
+			<user>
+				<modifiers>
+					<area-mod id="area1_ruinTower1"/>
+				</modifiers>
+			</user>
+		</action>
+	</object>
 </objects>
