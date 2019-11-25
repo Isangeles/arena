@@ -1,15 +1,27 @@
 <?xml version="1.0"?>
 <objects>
-	<object id="ruinTowerDoor1">
+	<object id="ruinTowerDoorEnter1">
 		<action>
 			<self>
 				<modifiers></modifiers>
 			</self>
 			<user>
 				<modifiers>
-					<area-mod id="area1_ruinTower1"/>
+					<area-mod id="area1_ruinTower1" enter-position="10x10"/>
 				</modifiers>
 			</user>
 		</action>
 	</object>
+		<object id="ruinTowerDoorExit1">
+			<action>
+				<self>
+					<modifiers></modifiers>
+				</self>
+				<user>
+					<modifiers>
+						<area-mod id="area1_main" enter-position="870x910"/>
+					</modifiers>
+				</user>
+			</action>
+		</object>
 </objects>

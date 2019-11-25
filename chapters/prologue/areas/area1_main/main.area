@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <area id="area1_main">
 	<npcs>
-		<char id="testchar" position="500x300"></char>	
+		<char id="testchar" position="500x300"></char>
 	</npcs>
 	<objects>
 		<object id="aloe1" position="500x500"></object>
-		<object id="ruinTowerDoor1" position="870x910"></object>
+		<object id="ruinTowerDoorEnter1" position="870x910"></object>
 	</objects>
 	<subareas>
 		<area id="area1_ruinTower1">
 			<npcs></npcs>
-			<objects></objects>
+			<objects>
+				<object id="ruinTowerDoorExit1" position="10x10"></object>
+			</objects>
 		</area>
 	</subareas>
 </area>
