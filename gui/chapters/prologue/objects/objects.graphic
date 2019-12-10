@@ -4,16 +4,20 @@
 		<sprite>
 			<picture>redtile1.png</picture>
 		</sprite>
-		<portrait>
-			<picture></picture>
-		</portrait>
 	</object-graphic>
 	<object-graphic id="ruinTowerDoorExit1">
 		<sprite>
 			<picture>redtile1.png</picture>
 		</sprite>
-		<portrait>
-			<picture></picture>
-		</portrait>
+	</object-graphic>
+	<object-graphic id="area1MainEnterance1">
+		<sprite>
+			<picture>redtile1.png</picture>
+		</sprite>
+	</object-graphic>
+	<object-graphic id="area2MainEnterance1">
+		<sprite>
+			<picture>redtile1.png</picture>
+		</sprite>
 	</object-graphic>
 </object-graphics>

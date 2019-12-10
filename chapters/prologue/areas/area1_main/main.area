@@ -6,6 +6,7 @@
 	<objects>
 		<object id="aloe1" position="500x500"></object>
 		<object id="ruinTowerDoorEnter1" position="870x910"></object>
+		<object id="area2MainEnterance1" position="870x0"></object>
 	</objects>
 	<subareas>
 		<area id="area1_ruinTower1">

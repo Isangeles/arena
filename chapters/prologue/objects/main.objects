@@ -12,16 +12,40 @@
 			</user>
 		</action>
 	</object>
-		<object id="ruinTowerDoorExit1">
-			<action>
-				<self>
-					<modifiers></modifiers>
-				</self>
-				<user>
-					<modifiers>
-						<area-mod id="area1_main" enter-position="870x910"/>
-					</modifiers>
-				</user>
-			</action>
-		</object>
+	<object id="ruinTowerDoorExit1">
+		<action>
+			<self>
+				<modifiers></modifiers>
+			</self>
+			<user>
+				<modifiers>
+					<area-mod id="area1_main" enter-position="870x910"/>
+				</modifiers>
+			</user>
+		</action>
+	</object>
+	<object id="area2MainEnterance1">
+		<action>
+			<self>
+				<modifiers></modifiers>
+			</self>
+			<user>
+				<modifiers>
+					<area-mod id="area2_main" enter-position="0x0"/>
+				</modifiers>
+			</user>
+		</action>
+	</object>
+	<object id="area1MainEnterance1">
+		<action>
+			<self>
+				<modifiers></modifiers>
+			</self>
+			<user>
+				<modifiers>
+					<area-mod id="area2_main" enter-position="870x0"/>
+				</modifiers>
+			</user>
+		</action>
+	</object>
 </objects>
