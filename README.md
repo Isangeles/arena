@@ -1,18 +1,18 @@
 ## Introduction
-Arena is simple demo module for [Flame](https://github.com/Isangeles/flame) RPG 
+Arena is simple demo module for [Flame](https://github.com/Isangeles/flame) RPG
 engine with [Mural](https://github.com/Isangeles/mural) 2D GUI support.
 
 You can download full game with arena module here: [Linux](https://drive.google.com/open?id=1CAUiHdGq8sxrrNWkRwF1QSaNSVWLKDVg), [Windows](https://drive.google.com/open?id=1rR_k_39o-hqTywUZO628ggA3iN7ZBZTJ)
 
 ## Usage
-To use this module with your Flame instance just place it in 
+To use this module with your Flame instance just place it in
 `data/modules/arena` directory.
 
 Then set `module` variable in `.flame` to:
-
 ```
   module:arena;
 ```
+After that run your interface executable, Flame should load module automatically.
 
 ## Contact
 * Isangeles <<dev@isangeles.pl>>
