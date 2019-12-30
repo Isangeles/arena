@@ -3,7 +3,7 @@
 	<npcs>
 	</npcs>
 	<objects>
-		<object id="area1MainEnterance1" position="0x0"></object>
+		<object id="area1MainEnterance1" position="0x20"></object>
 	</objects>
 	<subareas>
 	</subareas>
