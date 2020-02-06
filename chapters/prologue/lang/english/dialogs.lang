@@ -1,11 +1,13 @@
 testDialog1_1:Hi
-dAloeSearch1_1q:Hi, I'm tutorial character. Can you bring me some of this aloe, that grows nearby?
-dAloeSearch1_1q_1:Sure.
-dAloeSearch1_2qm:Thank you, I will wait here
-dAloeSearch1_2qf:Thank you, good lady, I will wait here
-dAloeSearch1_1_1q:I have aloe with me
-dAloeSearch1_3q:Thanks
-welcome1:Welcome
+dEugene1_s0_2:Hello, what's your name?
+dEugene1_s0_2_a1:I'm @name.
+dEugene1_s1_1:I'm Eugene, can you bring me some of this aloe, that grows nearby?
+dEugene1_s1_1_a1:Sure.
+dEugene1_s2_1:Thank you, I will wait here.
+dEugene1_s2_2:Thank you, good lady, I will wait here.
+dEugene1_s0_1_a1:I have aloe with me.
+dEugene1_s3_1:Thanks.
+welcome1:Welcome.
 trade1:Show me your wares.
 train1:Train me.
-bye1:Bye
+bye1:Bye.

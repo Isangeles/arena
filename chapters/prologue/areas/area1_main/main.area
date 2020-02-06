@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <area id="area1_main">
 	<npcs>
-		<char id="testchar" position="500x300"></char>
+		<char id="eugene1" position="500x300"></char>
 	</npcs>
 	<objects>
 		<object id="aloe1" position="500x500"></object>
