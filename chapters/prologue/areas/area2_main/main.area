@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <area id="area2_main">
-	<npcs>
-	</npcs>
+	<characters>
+	</characters>
 	<objects>
 		<object id="area1MainEnterance1" position="0x20"></object>
 	</objects>
