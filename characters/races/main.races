@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<races>
+	<race id="raceHuman" playable="true"></race>
+	<race id="raceElf" playable="true"></race>
+	<race id="raceDwarf" playable="true"></race>
+	<race id="raceGnome" playable="true"></race>
+</races>
