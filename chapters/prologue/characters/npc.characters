@@ -2,7 +2,7 @@
 <characters>
 	<char id="eugene1"
 		gender="male"
-		race="human"
+		race="raceHuman"
 		attitude="neutral"
 		alignment="chaotic_good"
 		guild=""
@@ -35,7 +35,7 @@
 </char>
 <char id="bandit1"
 	gender="male"
-	race="human"
+	race="raceHuman"
 	attitude="hostile"
 	alignment="chaotic_evil"
 	guild=""
