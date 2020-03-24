@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <characters>
 	<char id="eugene1"
-		gender="male"
+		gender="genderMale"
 		race="raceHuman"
 		attitude="neutral"
 		alignment="chaotic_good"
@@ -34,7 +34,7 @@
 	</trainings>
 </char>
 <char id="bandit1"
-	gender="male"
+	gender="genderMale"
 	race="raceHuman"
 	attitude="hostile"
 	alignment="chaotic_evil"
