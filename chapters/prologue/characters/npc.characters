@@ -3,8 +3,8 @@
 	<char id="eugene1"
 		gender="genderMale"
 		race="raceHuman"
-		attitude="neutral"
-		alignment="chaotic_good"
+		attitude="attNeutral"
+		alignment="aliChaoticGood"
 		guild=""
 		level="1">
 	<attributes strenght="4"
@@ -32,27 +32,27 @@
 			</reqs>
 		</attrs-train>
 	</trainings>
-</char>
-<char id="bandit1"
-	gender="genderMale"
-	race="raceHuman"
-	attitude="hostile"
-	alignment="chaotic_evil"
-	guild=""
-	level="1">
-<attributes strenght="2"
-	constitution="3"
-	dexterity="3"
-	intelligence="1"
-	wisdom="0"/>
-<skills>
-	<skill id="melee1"/>
-</skills>
-<inventory>
-	<item id="imWater1"
-		trade="true"
-		trade-value="5"/>
-	<item id="iwIronSword"/>
-</inventory>
+	</char>
+	<char id="bandit1"
+		gender="genderMale"
+		race="raceHuman"
+		attitude="attHostile"
+		alignment="aliChaoticEvil"
+		guild=""
+		level="1">
+	<attributes strenght="2"
+		constitution="3"
+		dexterity="3"
+		intelligence="1"
+		wisdom="0"/>
+	<skills>
+		<skill id="melee1"/>
+	</skills>
+	<inventory>
+		<item id="imWater1"
+			trade="true"
+			trade-value="5"/>
+		<item id="iwIronSword"/>
+	</inventory>
   </char>
 </characters>
