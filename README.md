@@ -2,7 +2,7 @@
 Arena is simple demo module for [Flame](https://github.com/Isangeles/flame) RPG
 engine with [Mural](https://github.com/Isangeles/mural) 2D GUI support.
 
-You can download full game with arena module here: [Linux](https://drive.google.com/open?id=1CAUiHdGq8sxrrNWkRwF1QSaNSVWLKDVg), [Windows](https://drive.google.com/open?id=1rR_k_39o-hqTywUZO628ggA3iN7ZBZTJ)
+You can download full game with arena module here: [Linux](https://my.opendesktop.org/s/xmxszBXyMQCK5xB), [Windows](http://my.opendesktop.org/s/gcKQmFRdTj8sBdp)
 
 ## Usage
 To use this module with your Flame instance just place it in
@@ -12,7 +12,7 @@ Then set `module` variable in `.flame` to:
 ```
   module:arena;
 ```
-After that run your interface executable, Flame should load module automatically.
+After that run your interface executable.
 
 ## Contact
 * Isangeles <<dev@isangeles.pl>>
