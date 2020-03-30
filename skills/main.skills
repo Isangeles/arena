@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <skills>
-	<skill id="melee1" cast="0" cooldown="0" range="touch" melee="true"/>
-	<skill id="fireball1" cast="3" cooldown="5" range="far" spell="true">
+	<skill id="melee1" cast="0" cooldown="0" range="skillRangeTouch" melee="true"/>
+	<skill id="fireball1" cast="3" cooldown="5" range="skillRangeFar" spell="true">
 		<effects>
 			<effect id="bleed1"/>
 		</effects>
