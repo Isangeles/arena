@@ -7,7 +7,7 @@
 		<slots>
 			<slot id="itSlotHand"/>
 		</slots>
-		<damage type="normal">
+		<damage type="elementNone">
 			<min>1</min>
 			<max>10</max>
 			<effects>

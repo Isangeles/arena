@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <area id="area1_main">
-	<characters>
-		<character id="eugene1" position="500x300" ai="true"/>
-	</characters>
-	<objects>
-		<object id="aloe1" position="500x500"/>
-		<object id="ruinTowerDoorEnter1" position="870x910"/>
-		<object id="area2MainEnterance1" position="870x20"/>
-	</objects>
-	<subareas>
-		<area id="area1_ruinTower1">
-			<characters></characters>
-			<objects>
-				<object id="ruinTowerDoorExit1" position="10x10"/>
-			</objects>
-		</area>
-	</subareas>
+  <characters>
+    <character id="eugene1"
+	       x="500"
+	       y="300"
+	       ai="true"/>
+  </characters>
+  <objects>
+    <object id="aloe1"
+	    x="500"
+	    y="500"/>
+    <object id="ruinTowerDoorEnter1"
+	    x="870"
+	    y="910"/>
+    <object id="area2MainEnterance1"
+	    x="870"
+	    y="20"/>
+  </objects>
+  <subareas>
+    <area id="area1_ruinTower1">
+      <characters></characters>
+      <objects>
+	<object id="ruinTowerDoorExit1"
+		x="10"
+		y="10"/>
+      </objects>
+    </area>
+  </subareas>
 </area>

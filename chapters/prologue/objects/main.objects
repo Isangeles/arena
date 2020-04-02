@@ -1,51 +1,63 @@
 <?xml version="1.0"?>
 <objects>
-	<object id="ruinTowerDoorEnter1" max-hp="1">
-		<action>
-			<self>
-				<modifiers></modifiers>
-			</self>
-			<user>
-				<modifiers>
-					<area-mod id="area1_ruinTower1" enter-position="10x10"/>
-				</modifiers>
-			</user>
-		</action>
-	</object>
-	<object id="ruinTowerDoorExit1" max-hp="1">
-		<action>
-			<self>
-				<modifiers></modifiers>
-			</self>
-			<user>
-				<modifiers>
-					<area-mod id="area1_main" enter-position="870x910"/>
-				</modifiers>
-			</user>
-		</action>
-	</object>
-	<object id="area2MainEnterance1" max-hp="1">
-		<action>
-			<self>
-				<modifiers></modifiers>
-			</self>
-			<user>
-				<modifiers>
-					<area-mod id="area2_main" enter-position="0x0"/>
-				</modifiers>
-			</user>
-		</action>
-	</object>
-	<object id="area1MainEnterance1" max-hp="1">
-		<action>
-			<self>
-				<modifiers></modifiers>
-			</self>
-			<user>
-				<modifiers>
-					<area-mod id="area1_main" enter-position="870x0"/>
-				</modifiers>
-			</user>
-		</action>
-	</object>
+  <object id="ruinTowerDoorEnter1"
+	  max-hp="1">
+    <action>
+      <self>
+	<modifiers></modifiers>
+      </self>
+      <user>
+	<modifiers>
+	  <area-mod id="area1_ruinTower1"
+		    enter-pos-x="10"
+		    enter-pos-y="10"/>
+	</modifiers>
+      </user>
+    </action>
+  </object>
+  <object id="ruinTowerDoorExit1"
+	  max-hp="1">
+    <action>
+      <self>
+	<modifiers></modifiers>
+      </self>
+      <user>
+	<modifiers>
+	  <area-mod id="area1_main"
+		    enter-pos-x="870"
+		    enter-pos-y="910"/>
+	</modifiers>
+      </user>
+    </action>
+  </object>
+  <object id="area2MainEnterance1"
+	  max-hp="1">
+    <action>
+      <self>
+	<modifiers></modifiers>
+      </self>
+      <user>
+	<modifiers>
+	  <area-mod id="area2_main"
+		    enter-pos-x="0"
+		    enter-pos-y="0"/>
+	</modifiers>
+      </user>
+    </action>
+  </object>
+  <object id="area1MainEnterance1"
+	  max-hp="1">
+    <action>
+      <self>
+	<modifiers></modifiers>
+      </self>
+      <user>
+	<modifiers>
+	  <area-mod id="area1_main"
+		    enter-pos-x="870"
+		    enter-pos-y="0"/>
+	</modifiers>
+      </user>
+    </action>
+  </object>
 </objects>
