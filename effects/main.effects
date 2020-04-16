@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <effects>
-	<effect id="hit1" duration="1">
+	<effect id="hit1" duration="1000">
 		<modifiers>
 			<health-mod min="1" max="1"/>
 		</modifiers>
 	</effect>
-	<effect id="bleed1" duration="5">
+	<effect id="bleed1" duration="5000">
 		<modifiers>
 			<health-mod min="-1" max="-3"/>
 		</modifiers>
