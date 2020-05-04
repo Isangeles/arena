@@ -1,4 +1,6 @@
-# Configuration file for the prologue 
-# chapter of arena module.
+# Configuration file for the prologue chapter.
 start-area:area1_main
 start-pos:0;0
+start-items:iwIronSword
+start-skills:melee1
+start-attrs:10
