@@ -2,9 +2,11 @@
 <objects>
   <object id="aloe1" max-hp="1">
     <inventory cap="5">
-      <item id="imAloeLeaves1"/>
       <item id="imAloeLeaves1"
-            random="10.0"/>
+	    loot="true"/>
+      <item id="imAloeLeaves1"
+            random="10.0"
+	    loot="true"/>
     </inventory>
   </object>
 </objects>
