@@ -3,7 +3,6 @@
   <misc id="imAloeLeaves1"
 	value="5"
 	level="1"
-	loot="true"
 	consumable="true">
     <use>
       <user>
@@ -15,12 +14,10 @@
   </misc>
   <misc id="imWater1"
 	value="1"
-	level="1"
-	loot="true"/>
+	level="1"/>
   <misc id="imAloeTea1"
 	value="10"
 	level="1"
-	loot="true"
 	consumable="true">
     <use>
       <user>
@@ -33,6 +30,5 @@
   <misc id="imBronzeCoin1"
 	value="1"
 	level="1"
-	loot="true"
 	currency="true"/>
 </miscs>
