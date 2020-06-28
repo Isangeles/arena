@@ -1,0 +1,32 @@
+<?xml varsion="1.0"?>
+<characters>
+  <char id="player_xenia"
+	serial="0"
+	name="Xenia"
+	level="1"
+	gender="genderFemale"
+	race="raceHuman"
+	attitude="attFriendly"
+	alignment="aliChaoticGood"
+	hp="300"
+	mana="25"
+	restore="true">
+    <attributes strength="1"
+		constitution="1"
+		dexterity="1"
+		inteligence="1"
+		wisdom="1"/>
+    <inventory cap="10">
+      <item id="iwIronSword"
+	    serial="0"
+	    loot="false"
+	    trade="false"
+	    trade-value="0"
+	    random="0"/>
+    </inventory>
+    <skills>
+      <skill id="melee1"
+	     cooldown="0"/>
+    </skills>
+  </char>
+</characters>
