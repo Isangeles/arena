@@ -12,6 +12,19 @@
       </user>
     </use>
   </misc>
+  <misc id="imHealingKit1"
+	value="5"
+	level="1"
+	consumable="true">
+    <use user-target-range="50"
+	 cast-max="3000">
+      <target-user>
+	<effects>
+	  <effect id="heal1"/>
+	</effects>
+      </target-user>
+    </use>
+  </misc>
   <misc id="imWater1"
 	value="1"
 	level="1"/>
