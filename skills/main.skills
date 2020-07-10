@@ -3,8 +3,11 @@
   <skill id="melee1"
 	 cast="0"
 	 cooldown="0"
-	 range="skillRangeTouch"
-	 melee="true"/>
+	 range="skillRangeTouch">
+    <effects>
+      <effect id="hit1"/>
+    </effects>
+  </skill>
   <skill id="fireball1"
 	 cast="3000"
 	 cooldown="5000"
