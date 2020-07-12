@@ -16,13 +16,15 @@
 	value="5"
 	level="1"
 	consumable="true">
-    <use user-target-range="50"
-	 cast-max="3000">
+    <use cast-max="3000">
       <target-user>
 	<effects>
 	  <effect id="heal1"/>
 	</effects>
       </target-user>
+      <reqs>
+	<target-range-req min-range="50"/>
+      </reqs>
     </use>
   </misc>
   <misc id="imWater1"

@@ -1,20 +1,29 @@
 <?xml version="1.0"?>
 <skills>
-  <skill id="melee1"
-	 cast="0"
-	 cooldown="0"
-	 range="skillRangeTouch">
-    <effects>
-      <effect id="hit1"/>
-    </effects>
+  <skill id="melee1">
+    <use>
+      <target>
+	<effects>
+	  <effect id="hit1"/>
+	</effects>
+      </target>
+      <reqs>
+	<target-range-req min-range="50"/>
+      </reqs>
+    </use>
   </skill>
-  <skill id="fireball1"
-	 cast="3000"
-	 cooldown="5000"
-	 range="skillRangeFar"
-	 spell="true">
-    <effects>
-      <effect id="bleed1"/>
-    </effects>
+  <skill id="fireball1">
+    <use cast-max="3000"
+	 cooldown-max="5000">
+      <target>
+	<effects>
+	  <effect id="fireHit1"/>
+	  <effect id="burn1"/>
+	</effects>
+      </target>
+      <reqs>
+	<target-range-req min-range="200"/>
+      </reqs>
+    </use>
   </skill>
 </skills>
