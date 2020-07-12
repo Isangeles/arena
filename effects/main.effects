@@ -29,4 +29,18 @@
 		  max="6"/>
     </modifiers>
   </effect>
+  <effect id="fireHit1"
+	  duration="1000">
+    <modifiers>
+      <health-mod min="-10"
+		  max="-30"/>
+    </modifiers>
+  </effect>
+  <effect id="burn1"
+	  duration="3000">
+    <modifiers>
+      <health-mod min="-5"
+		  max="-10"/>
+    </modifiers>
+  </effect>
 </effects>
