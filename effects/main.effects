@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <effects>
   <effect id="hit1"
-	  duration="1000"
 	  melee-hit="true">
     <modifiers>
       <health-mod min="-1"
@@ -29,8 +28,7 @@
 		  max="6"/>
     </modifiers>
   </effect>
-  <effect id="fireHit1"
-	  duration="1000">
+  <effect id="fireHit1">
     <modifiers>
       <health-mod min="-10"
 		  max="-30"/>
