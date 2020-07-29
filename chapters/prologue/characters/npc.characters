@@ -26,12 +26,12 @@
       <item id="iwIronSword"/>
     </inventory>
     <trainings>
-      <attrs-train str="1">
+      <training id="trainAttrStr1">
 	<reqs>
 	  <currency-req amount="100"
 			charge="true"/>
-	</reqs>
-      </attrs-train>
+        </reqs>
+      </training>
     </trainings>
   </char>
   <char id="bandit1"
