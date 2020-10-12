@@ -4,6 +4,10 @@
     <character id="eugene1"
 	       x="500"
 	       y="300"
+	       dest-x="500"
+	       dest-y="300"
+	       def-x="500"
+	       def-y="300"
 	       ai="true"/>
   </characters>
   <objects>
