@@ -1,0 +1,88 @@
+newmod_name:Module ID
+newmod_invalid_id_err:Invalid module ID
+talk_dialog:Dialog
+talk_answers:Answers
+talk_answers_select:Select answer
+target_near_targets:Near targets
+target_select_target:Select target
+quests_list:Quests
+quests_q_completed:Completed
+useskill_skills:Skills
+useskill_select:Select skill
+crafting_recipes:Recipes
+crafting_select_recipe:Select recipe
+crafting_recipe:Recipe
+crafting_category:Category
+crafting_result:Result
+crafting_amount:Amount
+crafting_reqs:Requirements
+crafting_make:Make
+trade_buy_items:Items to buy
+trade_sell_items:Items to sell
+trade_select_items:Select items
+trade_no_items:No items in inventory
+trade_accept:Accept?
+trade_item_value:Value
+trade_item_price:Price
+trade_sell_value_small:Sell value too small
+train_trainings:Trainings
+train_training:Training
+train_select_training:Select training
+train_no_trainings:No trainings
+train_no_train_sel:No training selected
+train_reqs:Train requirements
+train_attrs_training:Attributes
+reqs_not_meet:Requirements not meet
+talk_no_answer_id_err:Enter valid answer ID
+move_enter_x_position:Enter position X
+move_enter_y_position:Enter position Y
+dialog_back:Back
+dialog_cancel:Cancel
+req_unknown:Unknown
+req_level:Level
+req_item:Item
+talk_no_stage_err:No suitable dialog stage found
+crafting_no_recipes_err:No recipes known
+crafting_no_recipe_select_err:No recipe selected
+target_no_targets_err:No targets nearby
+invalid_input_err:Invalid input value
+nan_err:NaN
+no_game_err:No game loaded
+no_pc_err:No active player
+no_tar_err:No target
+loadgame_saves:Saves
+loadgame_select_save:Select save
+savegame_save_name:Enter save name
+cli_newchar_name:Character name
+cli_newchar_race:Character race
+cli_newchar_gender:Character gender
+cli_newchar_attrs:Character attributes
+cli_newchar_attrs_summary:Attributes(strenght, constitution, dexterity, wisdom, intelligence)
+cli_newchar_points:points
+cli_newchar_value:value
+cli_newchar_summary:Character
+cli_newgame_chars:Playable characters
+cli_newgame_select_char:Select character
+cli_newgame_summary:Selected character
+cli_accept_dialog:Accept or reset[A/r]
+cli_newchar_invalid_name_err:Invalid character name
+cli_newchar_invalid_value_err:Invalid value
+cli_newchar_no_pts_error:Not enought attributes points
+cli_newgame_no_chars_err:No playable characters
+cli_newgame_start_err:Fail to start new game
+cli_login_id:ID
+cli_login_pass:Password
+cli_nan_error:NaN
+cli_no_mod_err:No module loaded
+attNeutral:Neutral
+attFriendly:Friendly
+attHostile:Hostile
+aliLawfulGood:Lawful good
+aliNeutralGood:Neutral good
+aliChaoticGood:Chaotic good
+aliLawfulNeutral:Lawful neutral
+aliTrueNeutral:True neutral
+aliChaoticNeutral:Chaotic neutral
+aliLawfulEvil:Lawful evil
+aliNeutralEvil:Neutral evil
+aliChaoticEvil:Chaotic evil
