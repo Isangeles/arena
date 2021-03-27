@@ -7,8 +7,11 @@
 	       dest-x="500"
 	       dest-y="300"
 	       def-x="500"
-	       def-y="300"
-	       ai="true"/>
+	       def-y="300">
+      <flags>
+	<flag id="igniteNpc"/>
+      </flags>
+    </character>
   </characters>
   <objects>
     <object id="aloe1"
