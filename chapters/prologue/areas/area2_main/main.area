@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<area id="area2_main">
+<area id="area2_main"
+      time="08:00AM">
   <characters>
   </characters>
   <objects>

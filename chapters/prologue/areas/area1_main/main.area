@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<area id="area1_main">
+<area id="area1_main"
+      time="08:00AM">
   <characters>
     <character id="eugene1"
 	       x="500"
@@ -25,7 +26,8 @@
 	    y="20"/>
   </objects>
   <subareas>
-    <area id="area1_ruinTower1">
+      <area id="area1_ruinTower1"
+	    time="08:00AM">
       <characters></characters>
       <objects>
 	<object id="ruinTowerDoorExit1"
