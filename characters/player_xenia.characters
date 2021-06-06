@@ -1,7 +1,6 @@
 <?xml varsion="1.0"?>
 <characters>
   <char id="player_xenia"
-	serial="0"
 	name="Xenia"
 	level="1"
 	gender="genderFemale"
