@@ -6,7 +6,7 @@
 @1 = eugene1#0
 @2 = out(resshow -o lang-text -a chatHey1)
 true {
-	for(@3 = out(moduleshow -o area-chars -t area1_main)) {
+	for(@3 = out(areashow -o chars -t area1_main)) {
 		@1 != @3 {
 		     	rawdis(@1, @3) < 50 {
 				out(objecthave -o flag -t @3 -a fAloeSearch_start) == "false" {
