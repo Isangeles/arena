@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dialogs>
+  <dialog id="dYuan1">
+    <stage id="dYuan1_s1_1"
+	   start="true"
+	   ordinal="1">
+      <answer id="bye1"
+	      end="true"/>
+      <talker>
+	<modifiers>
+	  <flag-mod id="fArenaSearch1_found"/>
+	</modifiers>
+      </talker>
+    </stage>
+  </dialog>
+</dialogs>

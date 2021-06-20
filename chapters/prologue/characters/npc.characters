@@ -34,6 +34,31 @@
       </training>
     </trainings>
   </char>
+  <char id="yuan1"
+	gender="genderMale"
+	race="raceHuman"
+	attitude="attNeutral"
+	alignment="aliNeutralEvil"
+	level="5">
+    <attributes strenght="6"
+		constitution="4"
+		dexterity="3"
+		intelligence="4"
+		wisdom="4"/>
+    <dialogs>
+      <dialog id="dYuan1"/>
+    </dialogs>
+    <skills>
+      <skill id="melee1"/>
+    </skills>
+    <inventory>
+      <item id="imWater1"
+	    loot="true"
+	    trade="true"
+	    trade-value="5"/>
+      <item id="iwIronSword"/>
+    </inventory>
+  </char>
   <char id="bandit1"
 	gender="genderMale"
 	race="raceHuman"

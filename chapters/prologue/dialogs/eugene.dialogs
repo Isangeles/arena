@@ -7,7 +7,7 @@
       <answer id="dEugene1_s1_1_a1"
 	      to="4">
 	<reqs>
-	  <flag-req id="qAloeSearch1_s2_f1"/>
+	  <flag-req id="fAloeSearch1_found"/>
 	</reqs>
       </answer>
       <answer id="trade1"
@@ -76,7 +76,9 @@
 	      end="true"/>
       <talker>
 	<modifiers>
+	  <flag-mod id="fArenaSearch_start"/>
 	  <flag-mod id="fAloeSearch_talk1"/>
+	  <quest-mod start="qArenaSearch1"/>
 	</modifiers>
       </talker>
     </stage>
