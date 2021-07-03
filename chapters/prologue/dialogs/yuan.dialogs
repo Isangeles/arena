@@ -1,14 +1,45 @@
 <?xml version="1.0"?>
 <dialogs>
   <dialog id="dYuan1">
+    <stage id="welcome1"
+	   start="true"
+	   ordinal="1">
+      <answer id="bye1"
+	      end="true"/>
+      <reqs>
+	<flag-req id="fArenaSearch1_start"
+		  off="true"/>
+      </reqs>
+    </stage>
     <stage id="dYuan1_s1_1"
 	   start="true"
 	   ordinal="1">
+      <answer id="dYuan1_s1_1_a1"
+	      to="2"/>
+      <answer id="bye1"
+	      end="true"/>
+      <reqs>
+	<flag-req id="fArenaSearch1_start"/>
+	<flag-req id="fArenaSearch1_found"
+		  off="true"/>
+      </reqs>
+    </stage>
+    <stage id="dYuan1_s2_1"
+	   ordinal="2">
+      <answer id="dYuan1_s2_1_a1"
+	      to="3"/>
+      <answer id="bye1"
+	      end="true"/>
+    </stage>
+    <stage id="dYuan1_s3_1"
+	   ordinal="3">
       <answer id="bye1"
 	      end="true"/>
       <talker>
 	<modifiers>
 	  <flag-mod id="fArenaSearch1_found"/>
+	  <flag-mod id="fArenaSearch1_start"
+		    off="true"/>
 	</modifiers>
       </talker>
     </stage>

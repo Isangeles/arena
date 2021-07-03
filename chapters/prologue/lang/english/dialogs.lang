@@ -7,7 +7,11 @@ dEugene1_s3_1:Thank you, I will wait here.
 dEugene1_s3_2:Thank you, good lady, I will wait here.
 dEugene1_s1_1_a1:I have aloe with me.
 dEugene1_s4_1:Thanks, you should try your chances at the arena, it's at the north from here.
-dYuan1_s1_1:Welcome to our arena!
+dYuan1_s1_1:What you are doing here?
+dYuan1_s1_1_a1:You are the arena master?
+dYuan1_s2_1:That's right, you want to fight?
+dYuan1_s2_1_a1:Yes, what are the rules?
+dYuan1_s3_1:No rules, you can challenge anyone, after you win all enemy possession is yours.
 welcome1:Welcome.
 trade1:Show me your wares.
 train1:Train me.
