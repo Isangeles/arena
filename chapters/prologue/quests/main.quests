@@ -24,7 +24,7 @@
       <objectives>
         <objective finisher="true">
 	  <reqs>
-	    <flag-req id="fAloeSearch_talk1"/>
+	    <flag-req id="fAloeSearch1_talk1"/>
 	  </reqs>
 	</objective>
       </objectives>

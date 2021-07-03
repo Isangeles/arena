@@ -17,7 +17,7 @@
       <answer id="bye1"
 	      end="true"/>
       <reqs>
-	<flag-req id="fAloeSearch_start"/>
+	<flag-req id="fAloeSearch1_start"/>
       </reqs>
     </stage>
     <stage id="dEugene1_s1_2"
@@ -26,7 +26,7 @@
       <answer id="dEugene1_s1_2_a1"
 	      to="2"/>
       <reqs>
-	<flag-req id="fAloeSearch_start"
+	<flag-req id="fAloeSearch1_start"
 		  off="true"/>
       </reqs>
     </stage>
@@ -37,14 +37,14 @@
 	      to="3">
 	<owner>
 	  <modifiers>
-	    <flag-mod id="fAloeSearch_info"/>
+	    <flag-mod id="fAloeSearch1_info"/>
 	  </modifiers>
 	</owner>
       </answer>
       <answer id="bye1"
 	      end="true"/>
       <reqs>
-	<flag-req id="fAloeSearch_start"
+	<flag-req id="fAloeSearch1_start"
 		  off="true"/>
       </reqs>
     </stage>
@@ -65,7 +65,7 @@
       </reqs>
       <talker>
 	<modifiers>
-	  <flag-mod id="fAloeSearch_start"/>
+	  <flag-mod id="fAloeSearch1_start"/>
 	  <quest-mod start="qAloeSearch1"/>
 	</modifiers>
       </talker>
@@ -76,8 +76,10 @@
 	      end="true"/>
       <talker>
 	<modifiers>
-	  <flag-mod id="fArenaSearch_start"/>
-	  <flag-mod id="fAloeSearch_talk1"/>
+	  <flag-mod id="fArenaSearch1_start"/>
+	  <flag-mod id="fAloeSearch1_talk1"/>
+	  <flag-mod id="fAloeSearch1_found"
+		    off="true"/>
 	  <quest-mod start="qArenaSearch1"/>
 	</modifiers>
       </talker>
