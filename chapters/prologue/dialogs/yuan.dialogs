@@ -4,6 +4,12 @@
     <stage id="welcome1"
 	   start="true"
 	   ordinal="1">
+      <answer id="dYuan1_s1_2_a1"
+	      to="4">
+	<reqs>
+	  <flag-req id="fArenaSearch1_found"/>
+	</reqs>
+      </answer>
       <answer id="bye1"
 	      end="true"/>
       <reqs>
@@ -33,8 +39,8 @@
     </stage>
     <stage id="dYuan1_s3_1"
 	   ordinal="3">
-      <answer id="bye1"
-	      end="true"/>
+      <answer id="thanks1"
+	      to="1"/>
       <talker>
 	<modifiers>
 	  <flag-mod id="fArenaSearch1_found"/>
@@ -42,6 +48,11 @@
 		    off="true"/>
 	</modifiers>
       </talker>
+    </stage>
+    <stage id="dYuan1_s4_1"
+	   ordinal="4">
+      <answer id="bye1"
+	      end="true"/>
     </stage>
   </dialog>
 </dialogs>
