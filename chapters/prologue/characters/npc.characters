@@ -59,6 +59,31 @@
       <item id="iwIronSword"/>
     </inventory>
   </char>
+  <char id="yen1"
+	gender="genderMale"
+	race="raceHuman"
+	attitude="attNeutral"
+	alignment="aliNeutralGood"
+	level="2">
+    <attributes strenght="3"
+		constitution="2"
+		dexterity="2"
+		intelligence="1"
+		wisdom="1"/>
+    <dialogs>
+      <dialog id="dYen1"/>
+    </dialogs>
+    <skills>
+      <skill id="melee1"/>
+    </skills>
+    <inventory>
+      <item id="imWater1"
+	    loot="true"
+	    trade="true"
+	    trade-value="5"/>
+      <item id="iwIronSword"/>
+    </inventory>
+  </char>
   <char id="bandit1"
 	gender="genderMale"
 	race="raceHuman"

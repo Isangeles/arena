@@ -24,6 +24,17 @@
 	<flag id="igniteNpc"/>
       </flags>
     </character>
+    <character id="yen1"
+	       x="300"
+	       y="800"
+	       dest-x="300"
+	       dest-y="800"
+	       def-x="300"
+	       def-y="800">
+      <flags>
+	<flag id="igniteNpc"/>
+      </flags>
+    </character>
   </characters>
   <objects>
     <object id="aloe1"
