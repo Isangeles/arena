@@ -53,6 +53,12 @@
 	   ordinal="4">
       <answer id="bye1"
 	      end="true"/>
+      <talker>
+	<modifiers>
+	  <quest-mod start="qArenaYenDuel1"/>
+	  <flag-mod id="fArenaYenDuel1_start"/>
+	</modifiers>
+      </talker>
     </stage>
   </dialog>
 </dialogs>
