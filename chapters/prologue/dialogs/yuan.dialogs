@@ -55,8 +55,8 @@
 	      end="true"/>
       <talker>
 	<modifiers>
-	  <quest-mod start="qArenaYenDuel1"/>
-	  <flag-mod id="fArenaYenDuel1_start"/>
+	  <quest-mod start="qArenaChampion1"/>
+	  <flag-mod id="fArenaChampion1_start"/>
 	</modifiers>
       </talker>
     </stage>

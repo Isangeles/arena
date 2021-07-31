@@ -7,7 +7,7 @@
       <answer id="dYen1_s1_1_a1"
 	      to="2">
 	<reqs>
-	  <flag-req id="fArenaYenDuel1_start"/>
+	  <flag-req id="fArenaChampion1_start"/>
 	</reqs>
       </answer>
       <answer id="bye1"

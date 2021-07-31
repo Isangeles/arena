@@ -42,8 +42,8 @@
       </objectives>
     </stage>
   </quest>
-  <quest id="qArenaYenDuel1">
-    <stage id="qArenaYenDuel1_s1"
+  <quest id="qArenaChampion1">
+    <stage id="qArenaChampion1_s1"
 	   next="end">
       <objectives>
 	<objective finisher="true">
