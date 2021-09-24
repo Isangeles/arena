@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <characters>
-  <char id="player_xenia"
+  <character id="player_xenia"
 	level="1"
 	gender="genderFemale"
 	race="raceHuman"
@@ -18,5 +18,5 @@
     <skills>
       <skill id="melee1"/>
     </skills>
-  </char>
+  </character>
 </characters>
