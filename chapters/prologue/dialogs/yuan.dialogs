@@ -41,24 +41,24 @@
 	   ordinal="3">
       <answer id="thanks1"
 	      to="1"/>
-      <talker>
+      <target>
 	<modifiers>
 	  <flag-mod id="fArenaSearch1_found"/>
 	  <flag-mod id="fArenaSearch1_start"
 		    off="true"/>
 	</modifiers>
-      </talker>
+      </target>
     </stage>
     <stage id="dYuan1_s4_1"
 	   ordinal="4">
       <answer id="bye1"
 	      end="true"/>
-      <talker>
+      <target>
 	<modifiers>
 	  <quest-mod start="qArenaChampion1"/>
 	  <flag-mod id="fArenaChampion1_start"/>
 	</modifiers>
-      </talker>
+      </target>
     </stage>
   </dialog>
 </dialogs>

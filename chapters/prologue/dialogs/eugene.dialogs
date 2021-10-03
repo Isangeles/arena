@@ -63,18 +63,18 @@
       <reqs>
 	<gender-req type="genderFemale"/>
       </reqs>
-      <talker>
+      <target>
 	<modifiers>
 	  <flag-mod id="fAloeSearch1_start"/>
 	  <quest-mod start="qAloeSearch1"/>
 	</modifiers>
-      </talker>
+      </target>
     </stage>
     <stage id="dEugene1_s4_1"
 	   ordinal="4">
       <answer id="bye1"
 	      end="true"/>
-      <talker>
+      <target>
 	<modifiers>
 	  <flag-mod id="fArenaSearch1_start"/>
 	  <flag-mod id="fAloeSearch1_talk1"/>
@@ -82,7 +82,7 @@
 		    off="true"/>
 	  <quest-mod start="qArenaSearch1"/>
 	</modifiers>
-      </talker>
+      </target>
     </stage>
   </dialog>
 </dialogs>
