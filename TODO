@@ -1,12 +1,15 @@
 MAJOR:
-* subareas for area1(with TMX maps for Mural)
-* more areas
-* more quests
+* Magic skills
+* Thief skills
+* Fighter skills
+* More arena enemies
+* Trainers in the arena camp
+* Traders in the arena camp
+* More arena quests
 MINOR:
-* more effects, recipes and items
+* Bandits
 DONE:
-* main area
-* melee atack skill
-* fireball skill
-* effects
-* recipes
+* Main area
+* Find aloe quest
+* Find arena quest
+* Fireball skill

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<area id="area1_main">
+<area id="area1_main"
+      time="08:00AM">
   <characters>
     <character id="eugene1"
 	       x="500"
@@ -7,8 +8,44 @@
 	       dest-x="500"
 	       dest-y="300"
 	       def-x="500"
-	       def-y="300"
-	       ai="true"/>
+	       def-y="300">
+      <flags>
+	<flag id="igniteNpc"/>
+      </flags>
+    </character>
+    <character id="yuan1"
+	       x="600"
+	       y="900"
+	       dest-x="600"
+	       dest-y="900"
+	       def-x="600"
+	       def-y="900">
+      <flags>
+	<flag id="igniteNpc"/>
+      </flags>
+    </character>
+    <character id="yen1"
+	       x="300"
+	       y="800"
+	       dest-x="300"
+	       dest-y="800"
+	       def-x="300"
+	       def-y="800">
+      <flags>
+	<flag id="igniteNpc"/>
+      </flags>
+    </character>
+    <character id="lao1"
+	       x="1400"
+	       y="150"
+	       dest-x="1400"
+	       dest-y="150"
+	       def-x="1400"
+	       def-y="150">
+      <flags>
+	<flag id="igniteNpc"/>
+      </flags>
+    </character>
   </characters>
   <objects>
     <object id="aloe1"
@@ -22,7 +59,8 @@
 	    y="20"/>
   </objects>
   <subareas>
-    <area id="area1_ruinTower1">
+      <area id="area1_ruinTower1"
+	    time="08:00AM">
       <characters></characters>
       <objects>
 	<object id="ruinTowerDoorExit1"

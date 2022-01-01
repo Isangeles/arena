@@ -6,7 +6,7 @@ You can download full game with arena module here: [Linux](https://my.opendeskto
 [Windows](http://my.opendesktop.org/s/gcKQmFRdTj8sBdp), [macOS](https://my.opendesktop.org/s/5omoYQYMHGLXkfJ)
 
 ## Usage
-You can use this module with any Flame interface.
+You can use this module with [Mural](https://github.com/Isangeles/mural) or [Burn Shell](https://github.com/Isangeles/burnsh) interface.
 
 For example, to use this module with [Mural](https://github.com/Isangeles/mural) just place it in
 `data/modules/arena` directory.
@@ -20,7 +20,7 @@ module:arena
 * Isangeles <<dev@isangeles.pl>>
 
 ## License
-Copyright (c) 2018-2020 Dariusz Sikora<<dev@isangeles.pl>>
+Copyright (c) 2018-2021 Dariusz Sikora<<dev@isangeles.pl>>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

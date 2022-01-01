@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <characters>
-  <char id="eugene1"
+  <character id="eugene1"
 	gender="genderMale"
 	race="raceHuman"
 	attitude="attNeutral"
@@ -33,8 +33,82 @@
         </reqs>
       </training>
     </trainings>
-  </char>
-  <char id="bandit1"
+  </character>
+  <character id="yuan1"
+	gender="genderMale"
+	race="raceHuman"
+	attitude="attNeutral"
+	alignment="aliNeutralEvil"
+	level="5">
+    <attributes strenght="6"
+		constitution="4"
+		dexterity="3"
+		intelligence="4"
+		wisdom="4"/>
+    <dialogs>
+      <dialog id="dYuan1"/>
+    </dialogs>
+    <skills>
+      <skill id="melee1"/>
+    </skills>
+    <inventory>
+      <item id="imWater1"
+	    loot="true"
+	    trade="true"
+	    trade-value="5"/>
+      <item id="iwIronSword"/>
+    </inventory>
+  </character>
+  <character id="yen1"
+	gender="genderMale"
+	race="raceHuman"
+	attitude="attNeutral"
+	alignment="aliNeutralGood"
+	level="2">
+    <attributes strenght="3"
+		constitution="2"
+		dexterity="2"
+		intelligence="1"
+		wisdom="1"/>
+    <dialogs>
+      <dialog id="dYen1"/>
+    </dialogs>
+    <skills>
+      <skill id="melee1"/>
+    </skills>
+    <inventory>
+      <item id="imWater1"
+	    loot="true"
+	    trade="true"
+	    trade-value="5"/>
+      <item id="iwIronSword"/>
+    </inventory>
+  </character>
+  <character id="lao1"
+	gender="genderMale"
+	race="raceHuman"
+	attitude="attNeutral"
+	alignment="aliChaoticNeutral"
+	level="5">
+    <attributes strenght="3"
+		constitution="3"
+		dexterity="3"
+		intelligence="5"
+		wisdom="5"/>
+    <dialogs>
+      <dialog id="dLao1"/>
+    </dialogs>
+    <skills>
+      <skill id="melee1"/>
+    </skills>
+    <inventory>
+      <item id="imWater1"
+	    loot="true"
+	    trade="true"
+	    trade-value="5"/>
+    </inventory>
+  </character>
+  <character id="bandit1"
 	gender="genderMale"
 	race="raceHuman"
 	attitude="attHostile"
@@ -56,5 +130,5 @@
 	    trade-value="5"/>
       <item id="iwIronSword"/>
     </inventory>
-  </char>
+  </character>
 </characters>

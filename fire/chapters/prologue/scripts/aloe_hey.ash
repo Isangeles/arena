@@ -4,13 +4,13 @@
 # than 50 and character has flag 'fAloeSearch1', after that script
 # halts for 5 secs.
 @1 = eugene1#0
-@2 = out(resshow -o lang-text -a cdTestcharHay1)
+@2 = out(resshow -o lang-text -a chatHey1)
 true {
-	for(@3 = out(moduleshow -o area-chars -t area1_main)) {
+	for(@3 = out(areashow -o chars -t area1_main)) {
 		@1 != @3 {
 		     	rawdis(@1, @3) < 50 {
 				out(objecthave -o flag -t @3 -a fAloeSearch_start) == "false" {
-					objectset -o chat -a @2 -t @1;
+					objectset -o chat -a "@2" -t @1;
 					wait(5);
 			     	};
 			};

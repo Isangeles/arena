@@ -1,21 +1,13 @@
 <?xml version="1.0"?>
 <dialogs>
-  <dialog id="testDialog1">
-    <stage id="testDialog1_1"
-	   start="true"
-	   ordinal="0">
-      <answer id="bye1"
-	      end="true"/>
-    </stage>
-  </dialog>
   <dialog id="dEugene1">
     <stage id="welcome1"
 	   start="true"
-	   ordinal="0">
-      <answer id="dEugene1_s0_1_a1"
-	      to="3">
+	   ordinal="1">
+      <answer id="dEugene1_s1_1_a1"
+	      to="4">
 	<reqs>
-	  <flag-req id="qAloeSearch1_s1_f1"/>
+	  <flag-req id="fAloeSearch1_found"/>
 	</reqs>
       </answer>
       <answer id="trade1"
@@ -25,68 +17,72 @@
       <answer id="bye1"
 	      end="true"/>
       <reqs>
-	<flag-req id="fAloeSearch_start"/>
+	<flag-req id="fAloeSearch1_start"/>
       </reqs>
     </stage>
-    <stage id="dEugene1_s0_2"
+    <stage id="dEugene1_s1_2"
 	   start="true"
-	   ordinal="0">
-      <answer id="dEugene1_s0_2_a1"
-	      to="1"/>
+	   ordinal="1">
+      <answer id="dEugene1_s1_2_a1"
+	      to="2"/>
       <reqs>
-	<flag-req id="fAloeSearch_start"
+	<flag-req id="fAloeSearch1_start"
 		  off="true"/>
       </reqs>
     </stage>
-    <stage id="dEugene1_s1_1"
+    <stage id="dEugene1_s2_1"
 	   start="true"
-	   ordinal="1">
-      <answer id="dEugene1_s1_1_a1"
-	      to="2">
+	   ordinal="2">
+      <answer id="dEugene1_s2_1_a1"
+	      to="3">
 	<owner>
 	  <modifiers>
-	    <flag-mod id="fAloeSearch_info"/>
+	    <flag-mod id="fAloeSearch1_info"/>
 	  </modifiers>
 	</owner>
       </answer>
       <answer id="bye1"
 	      end="true"/>
       <reqs>
-	<flag-req id="fAloeSearch_start"
+	<flag-req id="fAloeSearch1_start"
 		  off="true"/>
       </reqs>
     </stage>
-    <stage id="dEugene1_s2_1"
-	   ordinal="2">
+    <stage id="dEugene1_s3_1"
+	   ordinal="3">
       <answer id="bye1"
 	      end="true"/>
       <reqs>
 	<gender-req type="genderMale"/>
       </reqs>
     </stage>
-    <stage id="dEugene1_s2_2"
-	   ordinal="2">
+    <stage id="dEugene1_s3_2"
+	   ordinal="3">
       <answer id="bye1"
 	      end="true"/>
       <reqs>
 	<gender-req type="genderFemale"/>
       </reqs>
-      <talker>
+      <target>
 	<modifiers>
-	  <flag-mod id="fAloeSearch_start"/>
+	  <flag-mod id="fAloeSearch1_start"/>
 	  <quest-mod start="qAloeSearch1"/>
 	</modifiers>
-      </talker>
+      </target>
     </stage>
-    <stage id="dEugene1_s3_1"
-	   ordinal="3">
+    <stage id="dEugene1_s4_1"
+	   ordinal="4">
       <answer id="bye1"
 	      end="true"/>
-      <talker>
+      <target>
 	<modifiers>
-	  <flag-mod id="fAloeSearch_talk1"/>
+	  <flag-mod id="fArenaSearch1_start"/>
+	  <flag-mod id="fAloeSearch1_talk1"/>
+	  <flag-mod id="fAloeSearch1_found"
+		    off="true"/>
+	  <quest-mod start="qArenaSearch1"/>
 	</modifiers>
-      </talker>
+      </target>
     </stage>
   </dialog>
 </dialogs>

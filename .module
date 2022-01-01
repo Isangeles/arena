@@ -1,4 +1,4 @@
-# Arena module conf file.
-id:arena;
-chapter:prologue;
-chapters:prologue;ch1;ch2;eplilogue;
+# Arena module config file.
+id:arena
+chapter:prologue
+chapters:prologue

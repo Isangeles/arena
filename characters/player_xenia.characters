@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<characters>
+  <character id="player_xenia"
+	level="1"
+	gender="genderFemale"
+	race="raceHuman"
+	attitude="attFriendly"
+	alignment="aliChaoticGood">
+    <attributes strength="1"
+		constitution="1"
+		dexterity="1"
+		inteligence="1"
+		wisdom="1"/>
+    <inventory>
+      <item id="iwIronSword"
+	    loot="true"/>
+    </inventory>
+    <skills>
+      <skill id="melee1"/>
+    </skills>
+  </character>
+</characters>
