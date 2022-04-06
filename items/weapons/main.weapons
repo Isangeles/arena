@@ -6,9 +6,9 @@
     <slots>
       <slot id="itSlotHand"/>
     </slots>
-    <damage type="elementNone">
-      <min>1</min>
-      <max>10</max>
+    <damage type="elementNone"
+	    min="1"
+	    max="10">
       <effects>
 	<effect id="bleed1"/>
       </effects>
