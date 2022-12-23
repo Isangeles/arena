@@ -1,11 +1,3 @@
 <?xml version="1.0"?>
 <object-graphics>
-  <object-graphic id="ruinTowerDoorEnter1"
-		  sprite="redtile1.png"/>
-  <object-graphic id="ruinTowerDoorExit1"
-		  sprite="redtile1.png"/>
-  <object-graphic id="area1MainEnterance1"
-		  sprite="redtile.png"/>
-  <object-graphic id="area2MainEnterance1"
-		  sprite="redtile1.png"/>
 </object-graphics>
