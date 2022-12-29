@@ -2,12 +2,10 @@
 <area id="area2_main"
       time="08:00AM">
   <characters>
+    <character id="area1MainEnterance1"
+	       init-x="0"
+	       init-y="20"/>
   </characters>
-  <objects>
-    <object id="area1MainEnterance1"
-	    x="0"
-	    y="20"/>
-  </objects>
   <subareas>
   </subareas>
 </area>

@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
-<objects>
-  <object id="ruinTowerDoorEnter1"
-	  max-hp="1">
+<characters>
+  <character id="ruinTowerDoorEnter1">
     <action>
       <self>
 	<modifiers></modifiers>
@@ -14,9 +13,8 @@
 	</modifiers>
       </user>
     </action>
-  </object>
-  <object id="ruinTowerDoorExit1"
-	  max-hp="1">
+  </character>
+  <character id="ruinTowerDoorExit1">
     <action>
       <self>
 	<modifiers></modifiers>
@@ -29,9 +27,8 @@
 	</modifiers>
       </user>
     </action>
-  </object>
-  <object id="area2MainEnterance1"
-	  max-hp="1">
+  </character>
+  <character id="area2MainEnterance1">
     <action>
       <self>
 	<modifiers></modifiers>
@@ -44,9 +41,8 @@
 	</modifiers>
       </user>
     </action>
-  </object>
-  <object id="area1MainEnterance1"
-	  max-hp="1">
+  </character>
+  <character id="area1MainEnterance1">
     <action>
       <self>
 	<modifiers></modifiers>
@@ -59,5 +55,5 @@
 	</modifiers>
       </user>
     </action>
-  </object>
-</objects>
+  </character>
+</characters>

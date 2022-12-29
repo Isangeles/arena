@@ -46,27 +46,24 @@
 	<flag id="igniteNpc"/>
       </flags>
     </character>
+    <character id="aloe1"
+	       init-x="500"
+	       init-y="500"/>
+    <character id="ruinTowerDoorEnter1"
+	       init-x="870"
+	       init-y="910"/>
+    <character id="area2MainEnterance1"
+	       init-x="870"
+	       init-y="20"/>
   </characters>
-  <objects>
-    <object id="aloe1"
-	    x="500"
-	    y="500"/>
-    <object id="ruinTowerDoorEnter1"
-	    x="870"
-	    y="910"/>
-    <object id="area2MainEnterance1"
-	    x="870"
-	    y="20"/>
-  </objects>
   <subareas>
       <area id="area1_ruinTower1"
 	    time="08:00AM">
-      <characters></characters>
-      <objects>
-	<object id="ruinTowerDoorExit1"
-		x="10"
-		y="10"/>
-      </objects>
+      <characters>
+	<character id="ruinTowerDoorExit1"
+		   init-x="10"
+		   init-y="10"/>
+      </characters>
     </area>
   </subareas>
 </area>
