@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="preview" tilewidth="32" tileheight="32" tilecount="704" columns="32">
+  <image source="tilesets/preview.png" width="1040" height="704"/>
+ </tileset>
+ <layer id="3" name="ground" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJw7z8DAcH4UDxoMANLZUN0=
+  </data>
+ </layer>
+</map>

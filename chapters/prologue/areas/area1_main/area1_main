@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="groundtiles1" tilewidth="32" tileheight="32" tilecount="399" columns="19">
+  <image source="tilesets/groundtiles1.png" width="608" height="672"/>
+ </tileset>
+ <tileset firstgid="400" name="towerruin1" tilewidth="32" tileheight="32" tilecount="49" columns="7">
+  <image source="tilesets/towerruin1.png" width="224" height="224"/>
+ </tileset>
+ <tileset firstgid="449" name="fomeFlora" tilewidth="32" tileheight="32" tilecount="240" columns="20">
+  <image source="tilesets/fomeFlora.png" width="640" height="400"/>
+ </tileset>
+ <layer id="1" name="ground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0isOgDAQRdGyFUBSFB9JcYBl/3thDJYhLaTT5IojJ3k3meCcCwAAAAAAAD87P7AY6FjFUKWx2FGLRtEW0DGKSTHTQQcddBjo2MSuOAroiJG74dZHtHRy4w1sT22x8EtP/Eu5dwIAAACw6QJc/mob
+  </data>
+ </layer>
+ <layer id="3" name="flora" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1klqAkEYhuG2Qb2jcTqBmigOW+OEw1bjgJptHO/hHfQM6gV8lyIGutuhWvweeHdF118UDWVZIiIiIiIiYkrEtqwPilKM4pSgpG16MndSzJumDH3SF2UpZ+gcefYtUJFKLmYos/abKlSlGtWpYegcTfZtUZs6LmbosrZHP9SnAQ1pZOgcY/ad0JR+Xczwx9oZzWlBS1rR+sX+DxEReW9e3yX3/satrr1LNoHbv/Fsl++SLWfYOTjH+R14fds8yp75D3R0cA4/3MF/gswTorCDufx2ByIiIiIi4i8nU88x/w==
+  </data>
+ </layer>
+ <layer id="2" name="buildings" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz8cKAlEUBNE3/78ygBnTYMQ45vxp1s69CHKhDtS+OyVJkiRJ+ihlKZWpQtXs32u+U2N3nRrUpBa1qRPwT5fNPerTgIaUB/wxYvOYJjSlGc0D/liweUkrWtOGtsF+FOzd0Z4OdKQTnYP9uLD3Sje604Oe9Ar2Q5IkSZIkSZL0W2+EWhyq
+  </data>
+ </layer>
+</map>
