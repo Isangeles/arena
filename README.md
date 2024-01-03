@@ -17,10 +17,10 @@ module:arena
 ```
 
 ## Contact
-* Isangeles <<dev@isangeles.pl>>
+* Isangeles <<ds@isangeles.dev>>
 
 ## License
-Copyright (c) 2018-2023 Dariusz Sikora<<dev@isangeles.pl>>
+Copyright (c) 2018-2024 Dariusz Sikora<<ds@isangeles.dev>>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
