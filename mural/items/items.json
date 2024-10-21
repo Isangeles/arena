@@ -1,0 +1,33 @@
+{
+    "item-graphics": [
+        {
+            "id": "iwIronSword",
+            "icon": "sword1.png",
+            "stack": 10,
+            "spritesheets": [
+                {
+                    "texture": "longsword-1222211-80x90.png",
+                    "race": "*",
+                    "gender": "*"
+                }
+            ]
+        },
+        {
+            "id": "imAloeLeaves1",
+            "icon": "herb1.png",
+            "stack": 10
+        },
+        {
+            "id": "iaLeatherArmor1",
+            "icon": "unknown.png",
+            "stack": 1,
+            "spritesheets": [
+                {
+                    "texture": "m-leather-1222211-80x90.png",
+                    "race": "*",
+                    "gender": "*"
+                }
+            ]
+        }
+    ]
+}

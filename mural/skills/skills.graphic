@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<skill-graphics>
-  <skill-graphic id="melee1"
-		 icon="melee1.png"
-		 activation-anim="melee"
-		 activation-audio="melee1.ogg"/>
-  <skill-graphic id="fireball1"
-		 icon="fireball1.png" />
-</skill-graphics>

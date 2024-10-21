@@ -1,0 +1,14 @@
+{
+    "skill-graphics": [
+        {
+            "id": "melee1",
+            "icon": "melee1.png",
+            "activation-audio": "melee1.ogg",
+            "actvation-anim": "melee"
+        },
+        {
+            "id": "fireball1",
+            "icon": "fireball1.png"
+        }
+    ]
+}

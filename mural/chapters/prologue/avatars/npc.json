@@ -1,0 +1,34 @@
+{
+    "avatars": [
+        {
+            "id": "eugene1",
+            "portrait": "male01.png",
+            "head": "m-head-black-1222211-80x90.png",
+            "torso": "m-cloth-1222211-80x90.png"
+        },
+        {
+            "id": "bandit1",
+            "portrait": "male01.png",
+            "head": "m-head-black-1222211-80x90.png",
+            "torso": "m-cloth-1222211-80x90.png"
+        },
+        {
+            "id": "yuan1",
+            "portrait": "male01.png",
+            "head": "m-head-black-1222211-80x90.png",
+            "torso": "m-cloth-1222211-80x90.png"
+        },
+        {
+            "id": "yen1",
+            "portrait": "male01.png",
+            "head": "m-head-black-1222211-80x90.png",
+            "torso": "m-cloth-1222211-80x90.png"
+        },
+        {
+            "id": "lao1",
+            "portrait": "male01.png",
+            "head": "m-head-black-1222211-80x90.png",
+            "torso": "m-cloth-1222211-80x90.png"
+        }
+    ]
+}
