@@ -26,6 +26,7 @@ login_logged_in_msg:Logged to the server
 continue_button_label:Continue
 continue_button_info:Continue game
 entering_game_info:Loading game...
+enter_menu_info:Loading...
 newgame_button_label:New game
 newgame_button_info:Start new game
 newgame_menu_title:Start new game
