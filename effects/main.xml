@@ -11,24 +11,24 @@
   <effect id="bleed1"
 	  duration="5000"
 	  hostile="true">
-    <modifiers>
+    <over-time-modifiers>
       <health-mod min="-1"
 		  max="-3"/>
-    </modifiers>
+    </over-time-modifiers>
   </effect>
   <effect id="heal1"
 	  duration="5000">
-    <modifiers>
+    <over-time-modifiers>
       <health-mod min="1"
 		  max="3"/>
-    </modifiers>
+    </over-time-modifiers>
   </effect>
   <effect id="heal2"
 	  duration="7000">
-    <modifiers>
+    <over-time-modifiers>
       <health-mod min="3"
 		  max="6"/>
-    </modifiers>
+    </over-time-modifiers>
   </effect>
   <effect id="fireHit1"
 	  hostile="true">
@@ -40,9 +40,9 @@
   <effect id="burn1"
 	  duration="3000"
 	  hostile="true">
-    <modifiers>
+    <over-time-modifiers>
       <health-mod min="-5"
 		  max="-10"/>
-    </modifiers>
+    </over-time-modifiers>
   </effect>
 </effects>
